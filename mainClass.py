@@ -19,7 +19,7 @@ def main():
         if item in secondcheck:
             secondcheck.remove(item)
 
-    print "first user recommended no. = ", firstcheck
-    print "second user recommended no. = ", secondcheck
+    print ("first user recommended no. = ", firstcheck)
+    print ("second user recommended no. = ", secondcheck)
 
 main()
